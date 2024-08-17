@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+    </head>
+    <script>
+        function evenodd()
+        {
+            let a = document.getElementById("tname").value;
+           
+            if(a%2==0)
+            document.write(a+" " + "even");
+ 
+            else {
+                document.write(a+ " " +"odd");
+            }
+            
+        }
+    </script>
+
+    <body>
+        <input type="text" id="tname">
+        <button onclick="evenodd()">submit</button>
+    </body>
+</html>
